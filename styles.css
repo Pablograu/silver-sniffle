@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: pink;
+  justify-content: center;
+  align-items: center;
+}
+.test {
+  height: 100px;
+  width: 100px;
+}
+.pixel {
+  position: absolute;
+  background-image: url("./images/carapau.png");
+  background-size: cover;
+  animation: crescendo 1s normal 3 ease-in;
+  width: 134px;
+  height: 180px;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#start {
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
