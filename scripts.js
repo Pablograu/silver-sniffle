@@ -10,6 +10,7 @@ function turnOffPixel() {
   console.log("randomXXXXX", windowX);
   console.log("randomYYYYY", windowY);
 
+  //hiii
   let pixel = document.createElement("div");
   pixel.classList.add("pixel");
   pixel.style.backgroundImage = `url(./images/carapau${rand}.png)`;
