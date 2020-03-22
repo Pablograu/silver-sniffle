@@ -4,13 +4,11 @@ const body = document.querySelector("body");
 const startBtn = document.getElementById("start");
 function turnOffPixel() {
   console.log("starting...");
-  let rand = Math.floor(Math.random() * 2);
+  let rand = Math.floor(Math.random() * 8);
   let randomX = Math.floor(Math.random() * windowX);
   let randomY = Math.floor(Math.random() * windowY);
   console.log("randomXXXXX", windowX);
   console.log("randomYYYYY", windowY);
-
-  //hiii
   let pixel = document.createElement("div");
   pixel.classList.add("pixel");
   pixel.style.backgroundImage = `url(./images/carapau${rand}.png)`;
